@@ -4282,7 +4282,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icon_code_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./icon--code.svg */ "./src/components/gui/icon--code.svg");
 /* harmony import */ var _icon_costumes_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icon--costumes.svg */ "./src/components/gui/icon--costumes.svg");
 /* harmony import */ var _icon_sounds_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icon--sounds.svg */ "./src/components/gui/icon--sounds.svg");
-const _excluded = ["accountNavOpen", "activeTabIndex", "alertsVisible", "authorId", "authorThumbnailUrl", "authorUsername", "basePath", "backdropLibraryVisible", "backpackHost", "backpackVisible", "blocksId", "blocksTabVisible", "cardsVisible", "canChangeLanguage", "canChangeTheme", "canCreateNew", "canEditTitle", "canManageFiles", "canRemix", "canSave", "canCreateCopy", "canShare", "canUseCloud", "children", "connectionModalVisible", "costumeLibraryVisible", "costumesTabVisible", "enableCommunity", "intl", "isCreating", "isFullScreen", "isPlayerOnly", "isRtl", "isShared", "isTelemetryEnabled", "isTotallyNormal", "loading", "logo", "renderLogin", "onClickAbout", "onClickAccountNav", "onCloseAccountNav", "onLogOut", "onOpenRegistration", "onToggleLoginOpen", "onActivateCostumesTab", "onActivateSoundsTab", "onActivateTab", "onClickLogo", "onExtensionButtonClick", "onProjectTelemetryEvent", "onRequestCloseBackdropLibrary", "onRequestCloseCostumeLibrary", "onRequestCloseTelemetryModal", "onSeeCommunity", "onShare", "onShowPrivacyPolicy", "onStartSelectingFileUpload", "onTelemetryModalCancel", "onTelemetryModalOptIn", "onTelemetryModalOptOut", "showComingSoon", "soundsTabVisible", "stageSizeMode", "targetIsStage", "telemetryModalVisible", "theme", "tipsLibraryVisible", "vm"];
+const _excluded = ["accountNavOpen", "activeTabIndex", "alertsVisible", "authorId", "authorThumbnailUrl", "authorUsername", "basePath", "backdropLibraryVisible", "backpackHost", "backpackVisible", "blocksId", "blocksTabVisible", "cardsVisible", "canChangeLanguage", "canChangeTheme", "canCreateNew", "canEditTitle", "canManageFiles", "canRemix", "canSave", "canCreateCopy", "canShare", "canUseCloud", "children", "connectionModalVisible", "costumeLibraryVisible", "costumesTabVisible", "enableCommunity", "intl", "isCreating", "isFullScreen", "isPlayerOnly", "isRtl", "isShared", "isTelemetryEnabled", "isTotallyNormal", "loading", "logo", "renderLogin", "onClickAbout", "onClickAccountNav", "onCloseAccountNav", "onLogOut", "onOpenRegistration", "onToggleLoginOpen", "onActivateCostumesTab", "onActivateSoundsTab", "onActivateTab", "onClickLogo", "onExtensionButtonClick", "onProjectTelemetryEvent", "onRequestCloseBackdropLibrary", "onRequestCloseCostumeLibrary", "onRequestCloseTelemetryModal", "onSeeCommunity", "onShare", "onShowPrivacyPolicy", "onStartSelectingFileUpload", "onStartSelectingDefaultFileUpload", "onTelemetryModalCancel", "onTelemetryModalOptIn", "onTelemetryModalOptOut", "showComingSoon", "soundsTabVisible", "stageSizeMode", "targetIsStage", "telemetryModalVisible", "theme", "tipsLibraryVisible", "vm"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var s = Object.getOwnPropertySymbols(e); for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (e.includes(n)) continue; t[n] = r[n]; } return t; }
@@ -4395,6 +4395,7 @@ const GUIComponent = props => {
       onShare,
       onShowPrivacyPolicy,
       onStartSelectingFileUpload,
+      onStartSelectingDefaultFileUpload,
       onTelemetryModalCancel,
       onTelemetryModalOptIn,
       onTelemetryModalOptOut,
@@ -4491,6 +4492,7 @@ const GUIComponent = props => {
       onSeeCommunity: onSeeCommunity,
       onShare: onShare,
       onStartSelectingFileUpload: onStartSelectingFileUpload,
+      onStartSelectingDefaultFileUpload: onStartSelectingDefaultFileUpload,
       onToggleLoginOpen: onToggleLoginOpen
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
       className: (_gui_css__WEBPACK_IMPORTED_MODULE_32___default().bodyWrapper)
@@ -6000,7 +6002,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _containers_menu_bar_hoc_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../containers/menu-bar-hoc.jsx */ "./src/containers/menu-bar-hoc.jsx");
 /* harmony import */ var _settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./settings-menu.jsx */ "./src/components/menu-bar/settings-menu.jsx");
 /* harmony import */ var _projects_menu_jsx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./projects-menu.jsx */ "./src/components/menu-bar/projects-menu.jsx");
-/* harmony import */ var _projects_menu_jsx__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_projects_menu_jsx__WEBPACK_IMPORTED_MODULE_27__);
 /* harmony import */ var _reducers_modals__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../reducers/modals */ "./src/reducers/modals.js");
 /* harmony import */ var _reducers_mode__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../reducers/mode */ "./src/reducers/mode.js");
 /* harmony import */ var _reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../reducers/time-travel */ "./src/reducers/time-travel.js");
@@ -6147,6 +6148,19 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     document.removeEventListener('keydown', this.handleKeyPress);
   }
   handleClickNew() {
+    // if the project is dirty, and user owns the project, we will autosave.
+    // but if they are not logged in and can't save, user should consider
+    // downloading or logging in first.
+    // Note that if user is logged in and editing someone else's project,
+    // they'll lose their work.
+    const readyToReplaceProject = this.props.confirmReadyToReplaceProject(this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_48__["default"].replaceProjectWarning));
+    this.props.onRequestCloseFile();
+    if (readyToReplaceProject) {
+      this.props.onClickNew(this.props.canSave && this.props.canCreateNew);
+    }
+    this.props.onRequestCloseFile();
+  }
+  handleClickLoad() {
     // if the project is dirty, and user owns the project, we will autosave.
     // but if they are not logged in and can't save, user should consider
     // downloading or logging in first.
@@ -6329,6 +6343,10 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
       defaultMessage: "New",
       id: "gui.menuBar.new"
     });
+    const loadProjectMessage = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
+      defaultMessage: "File",
+      id: "gui.menuBar.load"
+    });
     const remixButton = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarButton), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().remixButton)),
       iconClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().remixButtonIcon),
@@ -6383,7 +6401,9 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
       isRtl: this.props.isRtl,
       onClick: this.handleClickNew
-    }, newProjectMessage)), (this.props.canSave || this.props.canCreateCopy || this.props.canRemix) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, newProjectMessage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+      onClick: this.props.onStartSelectingFileUpload
+    }, loadProjectMessage, this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_48__["default"].loadFromComputerTitle))), (this.props.canSave || this.props.canCreateCopy || this.props.canRemix) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
       onClick: this.handleClickSave
     }, saveNowMessage), this.props.canCreateCopy && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
       onClick: this.handleClickSaveAsCopy
@@ -6676,6 +6696,7 @@ MenuBar.propTypes = {
   onSetTimeTravelMode: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
   onShare: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
   onStartSelectingFileUpload: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
+  onStartSelectingDefaultFileUpload: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
   onToggleLoginOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
   projectTitle: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
   renderLogin: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
@@ -6823,9 +6844,88 @@ const mapDispatchToProps = dispatch => ({
 /*!***************************************************!*\
   !*** ./src/components/menu-bar/projects-menu.jsx ***!
   \***************************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /workspaces/scratch-gui/src/components/menu-bar/projects-menu.jsx: [React Intl] Duplicate message id: \"gui.menuBar.settings\", but the `description` and/or `defaultMessage` are different.\n\u001b[0m \u001b[90m 56 |\u001b[39m         \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 57 |\u001b[39m         \u001b[33m<\u001b[39m\u001b[33mspan\u001b[39m className\u001b[33m=\u001b[39m{styles\u001b[33m.\u001b[39mdropdownLabel}\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mFormattedMessage\u001b[39m\n \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m                 defaultMessage\u001b[33m=\u001b[39m\u001b[32m\"Projects Settings\"\u001b[39m\n \u001b[90m 60 |\u001b[39m                 description\u001b[33m=\u001b[39m\u001b[32m\"Projects menu\"\u001b[39m\n \u001b[90m 61 |\u001b[39m                 id\u001b[33m=\u001b[39m\u001b[32m\"gui.menuBar.settings\"\u001b[39m\u001b[0m\n    at File.buildCodeFrameError (/workspaces/scratch-gui/node_modules/@babel/core/lib/transformation/file/file.js:195:12)\n    at NodePath.buildCodeFrameError (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/index.js:116:21)\n    at storeMessage (/workspaces/scratch-gui/node_modules/babel-plugin-react-intl/dist/index.js:125:24)\n    at PluginPass.JSXOpeningElement (/workspaces/scratch-gui/node_modules/babel-plugin-react-intl/dist/index.js:256:25)\n    at newFn (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/visitors.js:160:14)\n    at NodePath._call (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:47:20)\n    at NodePath.call (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:37:18)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:83:31)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitSingle (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:65:19)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:112:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitMultiple (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:61:17)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:110:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitMultiple (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:61:17)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:110:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitSingle (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:65:19)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:112:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitMultiple (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:61:17)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:110:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitSingle (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:65:19)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:112:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitSingle (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:65:19)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:112:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitMultiple (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:61:17)\n    at TraversalContext.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:110:19)\n    at traverseNode (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/traverse-node.js:22:17)\n    at NodePath.visit (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/path/context.js:89:52)\n    at TraversalContext.visitQueue (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:89:16)\n    at TraversalContext.visitMultiple (/workspaces/scratch-gui/node_modules/@babel/traverse/lib/context.js:61:17)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _language_menu_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./language-menu.jsx */ "./src/components/menu-bar/language-menu.jsx");
+/* harmony import */ var _menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu-bar-menu.jsx */ "./src/components/menu-bar/menu-bar-menu.jsx");
+/* harmony import */ var _theme_menu_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme-menu.jsx */ "./src/components/menu-bar/theme-menu.jsx");
+/* harmony import */ var _menu_menu_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../menu/menu.jsx */ "./src/components/menu/menu.jsx");
+/* harmony import */ var _menu_bar_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./menu-bar.css */ "./src/components/menu-bar/menu-bar.css");
+/* harmony import */ var _menu_bar_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_menu_bar_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _projects_menu_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./projects-menu.css */ "./src/components/menu-bar/projects-menu.css");
+/* harmony import */ var _projects_menu_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_projects_menu_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./dropdown-caret.svg */ "./src/components/menu-bar/dropdown-caret.svg");
+/* harmony import */ var _icon_settings_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icon--settings.svg */ "./src/components/menu-bar/icon--settings.svg");
+/* harmony import */ var _icon_projects_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icon--projects.svg */ "./src/components/menu-bar/icon--projects.svg");
+
+
+
+
+
+
+
+
+
+
+
+
+
+const ProjectsMenu = _ref => {
+  let {
+    canChangeLanguage,
+    canChangeTheme,
+    isRtl,
+    onRequestClose,
+    onRequestOpen,
+    projectsMenuOpen
+  } = _ref;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_7___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_7___default().hoverable), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_7___default().themeMenu), {
+      [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_7___default().active)]: projectsMenuOpen
+    }),
+    onMouseUp: onRequestOpen
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("img", {
+    src: _icon_projects_svg__WEBPACK_IMPORTED_MODULE_11__
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
+    className: (_projects_menu_css__WEBPACK_IMPORTED_MODULE_8___default().dropdownLabel)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__.FormattedMessage, {
+    defaultMessage: "Projects",
+    id: "gui.menuBar.settings"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("img", {
+    src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_9__
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_7___default().menuBarMenu),
+    open: projectsMenuOpen,
+    place: isRtl ? 'left' : 'right',
+    onRequestClose: onRequestClose
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_6__.MenuSection, null, canChangeLanguage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_language_menu_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    onRequestCloseSettings: onRequestClose
+  }), canChangeTheme && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_theme_menu_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    onRequestCloseSettings: onRequestClose
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("img", {
+    src: _icon_projects_svg__WEBPACK_IMPORTED_MODULE_11__
+  }));
+};
+ProjectsMenu.propTypes = {
+  canChangeLanguage: (prop_types__WEBPACK_IMPORTED_MODULE_12___default().bool),
+  canChangeTheme: (prop_types__WEBPACK_IMPORTED_MODULE_12___default().bool),
+  isRtl: (prop_types__WEBPACK_IMPORTED_MODULE_12___default().bool),
+  onRequestClose: (prop_types__WEBPACK_IMPORTED_MODULE_12___default().func),
+  onRequestOpen: (prop_types__WEBPACK_IMPORTED_MODULE_12___default().func),
+  projectsMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_12___default().bool)
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectsMenu);
 
 /***/ }),
 
@@ -35402,6 +35502,41 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[5].use[2]!./src/components/menu-bar/projects-menu.css":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[5].use[2]!./src/components/menu-bar/projects-menu.css ***!
+  \********************************************************************************************************************************************************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".projects-menu_icon_1EQl8 {\n    width: 1.5rem;\n}\n\n.projects-menu_theme-label_2a08P {\n    flex: 1;\n}\n\n.projects-menu_option_1-smc {\n    display: flex;\n    align-items: center;\n    gap: .5rem;\n}\n\n.projects-menu_check_90hJA {\n    margin: 0 .25rem 0 0;\n    visibility: hidden;\n}\n\n[dir=\"rtl\"] .projects-menu_check_90hJA {\n    margin: 0 0 0 .25rem;\n}\n\n.projects-menu_selected_3S4Ov {\n    visibility: visible;\n}\n\n.projects-menu_submenu-label_3ZjbV {\n    flex: 1;\n}\n\n.projects-menu_dropdown-label_3Xk-H {\n    margin: 0 0.5rem 0 0.25rem;\n}\n\n[dir=\"rtl\"] .projects-menu_dropdown-label_3Xk-H {\n    margin: 0 0.25rem 0 0.5rem;\n}\n\n.projects-menu_expand-caret_2Hd76 {\n    transform: rotate(-90deg);\n}\n\n[dir=\"rtl\"] .projects-menu_expand-caret_2Hd76 {\n    transform: rotate(90deg);\n}\n\n/* Extra padding to deal with scrollbar overlapping options in Firefox */\n\n[dir=\"ltr\"] .projects-menu_language-menu-item_1DmfV {\n    padding-right: 1rem;\n}\n\n[dir=\"rtl\"] .projects-menu_language-menu-item_1DmfV {\n    padding-left: 1rem;\n}\n\n.projects-menu_language-submenu_RMng0 > ul {\n    max-height: calc(100vh - 5rem); /* Fallback if dvh not supported */\n    max-height: calc(100dvh - 5rem);\n}\n\n@media only screen and (max-width: 1024px) {\n    .projects-menu_dropdown-label_3Xk-H {\n        display: none;\n    }\n}\n", ""]);
+// Exports
+exports.locals = {
+	"icon": "projects-menu_icon_1EQl8",
+	"theme-label": "projects-menu_theme-label_2a08P",
+	"themeLabel": "projects-menu_theme-label_2a08P",
+	"option": "projects-menu_option_1-smc",
+	"check": "projects-menu_check_90hJA",
+	"selected": "projects-menu_selected_3S4Ov",
+	"submenu-label": "projects-menu_submenu-label_3ZjbV",
+	"submenuLabel": "projects-menu_submenu-label_3ZjbV",
+	"dropdown-label": "projects-menu_dropdown-label_3Xk-H",
+	"dropdownLabel": "projects-menu_dropdown-label_3Xk-H",
+	"expand-caret": "projects-menu_expand-caret_2Hd76",
+	"expandCaret": "projects-menu_expand-caret_2Hd76",
+	"language-menu-item": "projects-menu_language-menu-item_1DmfV",
+	"languageMenuItem": "projects-menu_language-menu-item_1DmfV",
+	"language-submenu": "projects-menu_language-submenu_RMng0",
+	"languageSubmenu": "projects-menu_language-submenu_RMng0"
+};
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[5].use[2]!./src/components/menu-bar/save-status.css":
 /*!******************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[5].use[2]!./src/components/menu-bar/save-status.css ***!
@@ -37701,6 +37836,35 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./src/components/menu-bar/projects-menu.css":
+/*!***************************************************!*\
+  !*** ./src/components/menu-bar/projects-menu.css ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!../../../node_modules/postcss-loader/src/index.js??ruleSet[1].rules[5].use[2]!./projects-menu.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[5].use[2]!./src/components/menu-bar/projects-menu.css");
+
+if(typeof content === 'string') content = [[module.id, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! !../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./src/components/menu-bar/save-status.css":
 /*!*************************************************!*\
   !*** ./src/components/menu-bar/save-status.css ***!
@@ -39443,6 +39607,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAoCAYAAAC4
 
 "use strict";
 module.exports = "data:image/png;base64,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";
+
+/***/ }),
+
+/***/ "./src/components/menu-bar/icon--projects.svg":
+/*!****************************************************!*\
+  !*** ./src/components/menu-bar/icon--projects.svg ***!
+  \****************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIG1pcnJvci1pbi1ydGw9InRydWUiPgogIDxwYXRoIGZpbGw9IiM0OTRjNGUiIGQ9Ik04IDZINWMtLjU1MyAwLTEtLjQ0OC0xLTFzLjQ0Ny0xIDEtMWgzYy41NTMgMCAxIC40NDggMSAxcy0uNDQ3IDEtMSAxek0xMyAxMEg1Yy0uNTUzIDAtMS0uNDQ4LTEtMXMuNDQ3LTEgMS0xaDhjLjU1MyAwIDEgLjQ0OCAxIDFzLS40NDcgMS0xIDF6TTEzIDE0SDVjLS41NTMgMC0xLS40NDgtMS0xcy40NDctMSAxLTFoOGMuNTUzIDAgMSAuNDQ4IDEgMXMtLjQ0NyAxLTEgMXoiLz4KICA8cGF0aCBmaWxsPSIjNDk0YzRlIiBkPSJNMTggMnY4YzAgLjU1LS40NSAxLTEgMXMtMS0uNDUtMS0xVjIuNWMwLS4yOC0uMjItLjUtLjUtLjVoLTEzYy0uMjggMC0uNS4yMi0uNS41djE5YzAgLjI4LjIyLjUuNS41aDEzYy4yOCAwIC41LS4yMi41LS41VjIxYzAtLjU1LjQ1LTEgMS0xczEgLjQ1IDEgMXYxYzAgMS4xLS45IDItMiAySDJjLTEuMSAwLTItLjktMi0yVjJDMCAuOS45IDAgMiAwaDE0YzEuMSAwIDIgLjkgMiAyeiIvPgogIDxwYXRoIGZpbGw9IiM0OTRjNGUiIGQ9Ik0yMy44NyAxMS44ODJjLjMxLjU0LjA0NSAxLjI3My0uNTk1IDEuNjQzbC05LjY1IDUuNTdjLS4wODQuMDUtLjE3Ni4wODYtLjI2NS4xMWwtMi42NTYuNjZjLS4zNy4wOTItLjcyLS4wMzUtLjg4LS4zMTQtLjE2Mi0uMjc4LS4wOS0uNjUuMTctLjkxM2wxLjkwNy0xLjk1OGMuMDYzLS4wNzIuMTM3LS4xMjMuMjE0LS4xNjcuMDA0LS4wMS4wMTItLjAxNS4wMTItLjAxNWw5LjY1LTUuNTdjLjY0LS4zNyAxLjQwOC0uMjM0IDEuNzIuMzA1bC4zNzQuNjV6Ii8+Cjwvc3ZnPg==";
 
 /***/ }),
 
@@ -42399,4 +42574,4 @@ module.exports = /*#__PURE__*/JSON.parse('[{"name":"Abby","tags":["people","pers
 /***/ })
 
 }]);
-//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.f364eeac507d1e19f436.js.map
+//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.234d1fc9d79e158c1dfb.js.map
