@@ -6015,7 +6015,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icon_about_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icon--about.svg */ "./src/components/menu-bar/icon--about.svg");
 /* harmony import */ var _icon_file_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icon--file.svg */ "./src/components/menu-bar/icon--file.svg");
 /* harmony import */ var _icon_edit_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icon--edit.svg */ "./src/components/menu-bar/icon--edit.svg");
-/* harmony import */ var _logo_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./logo.svg */ "./src/components/menu-bar/logo.svg");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './logo_juniorcoder.svg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 /* harmony import */ var _nineties_logo_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./nineties_logo.svg */ "./src/components/menu-bar/nineties_logo.svg");
 /* harmony import */ var _cat_logo_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./cat_logo.svg */ "./src/components/menu-bar/cat_logo.svg");
 /* harmony import */ var _prehistoric_logo_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./prehistoric-logo.svg */ "./src/components/menu-bar/prehistoric-logo.svg");
@@ -6685,7 +6685,7 @@ MenuBar.propTypes = {
   vm: prop_types__WEBPACK_IMPORTED_MODULE_48___default().instanceOf((scratch_vm__WEBPACK_IMPORTED_MODULE_7___default())).isRequired
 };
 MenuBar.defaultProps = {
-  logo: _logo_svg__WEBPACK_IMPORTED_MODULE_42__,
+  logo: Object(function webpackMissingModule() { var e = new Error("Cannot find module './logo_juniorcoder.svg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()),
   onShare: () => {}
 };
 const mapStateToProps = (state, ownProps) => {
@@ -39455,17 +39455,6 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAi
 
 /***/ }),
 
-/***/ "./src/components/menu-bar/logo.svg":
-/*!******************************************!*\
-  !*** ./src/components/menu-bar/logo.svg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "static/assets/logo.28e00dfaca01830d109e.svg";
-
-/***/ }),
-
 /***/ "./src/components/menu-bar/nineties_logo.svg":
 /*!***************************************************!*\
   !*** ./src/components/menu-bar/nineties_logo.svg ***!
@@ -42386,4 +42375,4 @@ module.exports = /*#__PURE__*/JSON.parse('[{"name":"Abby","tags":["people","pers
 /***/ })
 
 }]);
-//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.7a2583c00600ca3d9a5d.js.map
+//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.45036b80b5d0ad37ae46.js.map
