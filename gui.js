@@ -90,7 +90,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const onClickLogo = () => {
-  window.location = 'https://github.io';
+  window.location = 'https://www.facebook.com/people/Junior-Coder/100071345742279/';
 };
 
 //window.location = 'https://scratch.mit.edu';
