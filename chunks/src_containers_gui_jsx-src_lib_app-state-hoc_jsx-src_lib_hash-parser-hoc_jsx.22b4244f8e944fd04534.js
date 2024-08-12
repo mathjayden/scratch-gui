@@ -6087,7 +6087,7 @@ const MenuBarItemTooltip = _ref => {
     id,
     place = 'bottom'
   } = _ref;
-  if (enable) {
+  if (!enable) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react__WEBPACK_IMPORTED_MODULE_6__.Fragment, null, children);
   }
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_coming_soon_coming_soon_jsx__WEBPACK_IMPORTED_MODULE_12__.ComingSoonTooltip, {
@@ -42563,4 +42563,4 @@ module.exports = /*#__PURE__*/JSON.parse('[{"name":"Abby","tags":["people","pers
 /***/ })
 
 }]);
-//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.471bac3b25b672ff9558.js.map
+//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.22b4244f8e944fd04534.js.map
