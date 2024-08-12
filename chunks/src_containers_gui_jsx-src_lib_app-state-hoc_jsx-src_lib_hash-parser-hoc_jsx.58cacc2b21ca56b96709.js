@@ -5971,8 +5971,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_48__);
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var bowser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bowser */ "./node_modules/bowser/src/bowser.js");
@@ -5984,44 +5984,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../button/button.jsx */ "./src/components/button/button.jsx");
 /* harmony import */ var _community_button_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./community-button.jsx */ "./src/components/menu-bar/community-button.jsx");
 /* harmony import */ var _share_button_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./share-button.jsx */ "./src/components/menu-bar/share-button.jsx");
-/* harmony import */ var _coming_soon_coming_soon_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../coming-soon/coming-soon.jsx */ "./src/components/coming-soon/coming-soon.jsx");
-/* harmony import */ var _divider_divider_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../divider/divider.jsx */ "./src/components/divider/divider.jsx");
-/* harmony import */ var _save_status_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./save-status.jsx */ "./src/components/menu-bar/save-status.jsx");
-/* harmony import */ var _containers_project_watcher_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../containers/project-watcher.jsx */ "./src/containers/project-watcher.jsx");
-/* harmony import */ var _menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./menu-bar-menu.jsx */ "./src/components/menu-bar/menu-bar-menu.jsx");
-/* harmony import */ var _menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../menu/menu.jsx */ "./src/components/menu/menu.jsx");
-/* harmony import */ var _project_title_input_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./project-title-input.jsx */ "./src/components/menu-bar/project-title-input.jsx");
-/* harmony import */ var _author_info_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./author-info.jsx */ "./src/components/menu-bar/author-info.jsx");
-/* harmony import */ var _containers_account_nav_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../containers/account-nav.jsx */ "./src/containers/account-nav.jsx");
-/* harmony import */ var _login_dropdown_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./login-dropdown.jsx */ "./src/components/menu-bar/login-dropdown.jsx");
-/* harmony import */ var _containers_sb3_downloader_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../containers/sb3-downloader.jsx */ "./src/containers/sb3-downloader.jsx");
-/* harmony import */ var _containers_deletion_restorer_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../containers/deletion-restorer.jsx */ "./src/containers/deletion-restorer.jsx");
-/* harmony import */ var _containers_turbo_mode_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../containers/turbo-mode.jsx */ "./src/containers/turbo-mode.jsx");
-/* harmony import */ var _containers_menu_bar_hoc_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../containers/menu-bar-hoc.jsx */ "./src/containers/menu-bar-hoc.jsx");
-/* harmony import */ var _settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./settings-menu.jsx */ "./src/components/menu-bar/settings-menu.jsx");
-/* harmony import */ var _projects_menu_jsx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./projects-menu.jsx */ "./src/components/menu-bar/projects-menu.jsx");
-/* harmony import */ var _reducers_modals__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../reducers/modals */ "./src/reducers/modals.js");
-/* harmony import */ var _reducers_mode__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../reducers/mode */ "./src/reducers/mode.js");
-/* harmony import */ var _reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../reducers/time-travel */ "./src/reducers/time-travel.js");
-/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../reducers/project-state */ "./src/reducers/project-state.js");
-/* harmony import */ var _reducers_menus__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../reducers/menus */ "./src/reducers/menus.js");
-/* harmony import */ var _lib_collect_metadata__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../lib/collect-metadata */ "./src/lib/collect-metadata.js");
-/* harmony import */ var _menu_bar_css__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./menu-bar.css */ "./src/components/menu-bar/menu-bar.css");
-/* harmony import */ var _menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _lib_assets_icon_tutorials_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../lib/assets/icon--tutorials.svg */ "./src/lib/assets/icon--tutorials.svg");
-/* harmony import */ var _icon_mystuff_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icon--mystuff.png */ "./src/components/menu-bar/icon--mystuff.png");
-/* harmony import */ var _icon_profile_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icon--profile.png */ "./src/components/menu-bar/icon--profile.png");
-/* harmony import */ var _icon_remix_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./icon--remix.svg */ "./src/components/menu-bar/icon--remix.svg");
-/* harmony import */ var _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./dropdown-caret.svg */ "./src/components/menu-bar/dropdown-caret.svg");
-/* harmony import */ var _icon_about_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icon--about.svg */ "./src/components/menu-bar/icon--about.svg");
-/* harmony import */ var _icon_file_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icon--file.svg */ "./src/components/menu-bar/icon--file.svg");
-/* harmony import */ var _icon_edit_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icon--edit.svg */ "./src/components/menu-bar/icon--edit.svg");
-/* harmony import */ var _Logo_JuniorCoder_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./Logo_JuniorCoder.svg */ "./src/components/menu-bar/Logo_JuniorCoder.svg");
-/* harmony import */ var _nineties_logo_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./nineties_logo.svg */ "./src/components/menu-bar/nineties_logo.svg");
-/* harmony import */ var _cat_logo_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./cat_logo.svg */ "./src/components/menu-bar/cat_logo.svg");
-/* harmony import */ var _prehistoric_logo_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./prehistoric-logo.svg */ "./src/components/menu-bar/prehistoric-logo.svg");
-/* harmony import */ var _oldtimey_logo_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./oldtimey-logo.svg */ "./src/components/menu-bar/oldtimey-logo.svg");
-/* harmony import */ var _lib_shared_messages__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../../lib/shared-messages */ "./src/lib/shared-messages.js");
+/* harmony import */ var _divider_divider_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../divider/divider.jsx */ "./src/components/divider/divider.jsx");
+/* harmony import */ var _save_status_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./save-status.jsx */ "./src/components/menu-bar/save-status.jsx");
+/* harmony import */ var _containers_project_watcher_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../containers/project-watcher.jsx */ "./src/containers/project-watcher.jsx");
+/* harmony import */ var _menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./menu-bar-menu.jsx */ "./src/components/menu-bar/menu-bar-menu.jsx");
+/* harmony import */ var _menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../menu/menu.jsx */ "./src/components/menu/menu.jsx");
+/* harmony import */ var _project_title_input_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./project-title-input.jsx */ "./src/components/menu-bar/project-title-input.jsx");
+/* harmony import */ var _author_info_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./author-info.jsx */ "./src/components/menu-bar/author-info.jsx");
+/* harmony import */ var _containers_account_nav_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../containers/account-nav.jsx */ "./src/containers/account-nav.jsx");
+/* harmony import */ var _login_dropdown_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./login-dropdown.jsx */ "./src/components/menu-bar/login-dropdown.jsx");
+/* harmony import */ var _containers_sb3_downloader_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../containers/sb3-downloader.jsx */ "./src/containers/sb3-downloader.jsx");
+/* harmony import */ var _containers_deletion_restorer_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../containers/deletion-restorer.jsx */ "./src/containers/deletion-restorer.jsx");
+/* harmony import */ var _containers_turbo_mode_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../containers/turbo-mode.jsx */ "./src/containers/turbo-mode.jsx");
+/* harmony import */ var _containers_menu_bar_hoc_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../containers/menu-bar-hoc.jsx */ "./src/containers/menu-bar-hoc.jsx");
+/* harmony import */ var _settings_menu_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./settings-menu.jsx */ "./src/components/menu-bar/settings-menu.jsx");
+/* harmony import */ var _projects_menu_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./projects-menu.jsx */ "./src/components/menu-bar/projects-menu.jsx");
+/* harmony import */ var _reducers_modals__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../reducers/modals */ "./src/reducers/modals.js");
+/* harmony import */ var _reducers_mode__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../reducers/mode */ "./src/reducers/mode.js");
+/* harmony import */ var _reducers_time_travel__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../reducers/time-travel */ "./src/reducers/time-travel.js");
+/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../reducers/project-state */ "./src/reducers/project-state.js");
+/* harmony import */ var _reducers_menus__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../reducers/menus */ "./src/reducers/menus.js");
+/* harmony import */ var _lib_collect_metadata__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../lib/collect-metadata */ "./src/lib/collect-metadata.js");
+/* harmony import */ var _menu_bar_css__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./menu-bar.css */ "./src/components/menu-bar/menu-bar.css");
+/* harmony import */ var _menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var _lib_assets_icon_tutorials_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../lib/assets/icon--tutorials.svg */ "./src/lib/assets/icon--tutorials.svg");
+/* harmony import */ var _icon_mystuff_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icon--mystuff.png */ "./src/components/menu-bar/icon--mystuff.png");
+/* harmony import */ var _icon_profile_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icon--profile.png */ "./src/components/menu-bar/icon--profile.png");
+/* harmony import */ var _icon_remix_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icon--remix.svg */ "./src/components/menu-bar/icon--remix.svg");
+/* harmony import */ var _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./dropdown-caret.svg */ "./src/components/menu-bar/dropdown-caret.svg");
+/* harmony import */ var _icon_about_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icon--about.svg */ "./src/components/menu-bar/icon--about.svg");
+/* harmony import */ var _icon_file_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icon--file.svg */ "./src/components/menu-bar/icon--file.svg");
+/* harmony import */ var _icon_edit_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icon--edit.svg */ "./src/components/menu-bar/icon--edit.svg");
+/* harmony import */ var _Logo_JuniorCoder_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./Logo_JuniorCoder.svg */ "./src/components/menu-bar/Logo_JuniorCoder.svg");
+/* harmony import */ var _nineties_logo_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./nineties_logo.svg */ "./src/components/menu-bar/nineties_logo.svg");
+/* harmony import */ var _cat_logo_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./cat_logo.svg */ "./src/components/menu-bar/cat_logo.svg");
+/* harmony import */ var _prehistoric_logo_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./prehistoric-logo.svg */ "./src/components/menu-bar/prehistoric-logo.svg");
+/* harmony import */ var _oldtimey_logo_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./oldtimey-logo.svg */ "./src/components/menu-bar/oldtimey-logo.svg");
+/* harmony import */ var _lib_shared_messages__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../../lib/shared-messages */ "./src/lib/shared-messages.js");
 
 
 
@@ -6035,7 +6034,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
+//import {ComingSoonTooltip} from '../coming-soon/coming-soon.jsx';
 
 
 
@@ -6090,19 +6089,19 @@ const MenuBarItemTooltip = _ref => {
   if (enable) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react__WEBPACK_IMPORTED_MODULE_6__.Fragment, null, children);
   }
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_coming_soon_coming_soon_jsx__WEBPACK_IMPORTED_MODULE_12__.ComingSoonTooltip, {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().comingSoon), className),
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(ComingSoonTooltip, {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().comingSoon), className),
     place: place,
-    tooltipClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().comingSoonTooltip),
+    tooltipClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().comingSoonTooltip),
     tooltipId: id
   }, children);
 };
 MenuBarItemTooltip.propTypes = {
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().node),
-  className: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  enable: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  id: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  place: prop_types__WEBPACK_IMPORTED_MODULE_49___default().oneOf(['top', 'bottom', 'left', 'right'])
+  children: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().node),
+  className: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  enable: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  id: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  place: prop_types__WEBPACK_IMPORTED_MODULE_48___default().oneOf(['top', 'bottom', 'left', 'right'])
 };
 const MenuItemTooltip = _ref2 => {
   let {
@@ -6111,28 +6110,28 @@ const MenuItemTooltip = _ref2 => {
     children,
     className
   } = _ref2;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_coming_soon_coming_soon_jsx__WEBPACK_IMPORTED_MODULE_12__.ComingSoonTooltip, {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().comingSoon), className),
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(ComingSoonTooltip, {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().comingSoon), className),
     isRtl: isRtl,
     place: isRtl ? 'left' : 'right',
-    tooltipClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().comingSoonTooltip),
+    tooltipClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().comingSoonTooltip),
     tooltipId: id
   }, children);
 };
 MenuItemTooltip.propTypes = {
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().node),
-  className: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  id: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  isRtl: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool)
+  children: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().node),
+  className: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  id: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  isRtl: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool)
 };
 const AboutButton = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-  className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable)),
-  iconClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().aboutIcon),
-  iconSrc: _icon_about_svg__WEBPACK_IMPORTED_MODULE_40__,
+  className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable)),
+  iconClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().aboutIcon),
+  iconSrc: _icon_about_svg__WEBPACK_IMPORTED_MODULE_39__,
   onClick: props.onClick
 });
 AboutButton.propTypes = {
-  onClick: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func).isRequired
+  onClick: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func).isRequired
 };
 class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
   constructor(props) {
@@ -6151,7 +6150,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     // downloading or logging in first.
     // Note that if user is logged in and editing someone else's project,
     // they'll lose their work.
-    const readyToReplaceProject = this.props.confirmReadyToReplaceProject(this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_48__["default"].replaceProjectWarning));
+    const readyToReplaceProject = this.props.confirmReadyToReplaceProject(this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_47__["default"].replaceProjectWarning));
     this.props.onRequestCloseFile();
     if (readyToReplaceProject) {
       this.props.onClickNew(this.props.canSave && this.props.canCreateNew);
@@ -6164,7 +6163,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     // downloading or logging in first.
     // Note that if user is logged in and editing someone else's project,
     // they'll lose their work.
-    const readyToReplaceProject = this.props.confirmReadyToReplaceProject(this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_48__["default"].replaceProjectWarning));
+    const readyToReplaceProject = this.props.confirmReadyToReplaceProject(this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_47__["default"].replaceProjectWarning));
     this.props.onRequestCloseFile();
     if (readyToReplaceProject) {
       this.props.onClickNew(this.props.canSave && this.props.canCreateNew);
@@ -6222,13 +6221,13 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
 
       // Change logo for modes
       if (mode === '1990') {
-        document.getElementById('logo_img').src = _nineties_logo_svg__WEBPACK_IMPORTED_MODULE_44__;
+        document.getElementById('logo_img').src = _nineties_logo_svg__WEBPACK_IMPORTED_MODULE_43__;
       } else if (mode === '2020') {
-        document.getElementById('logo_img').src = _cat_logo_svg__WEBPACK_IMPORTED_MODULE_45__;
+        document.getElementById('logo_img').src = _cat_logo_svg__WEBPACK_IMPORTED_MODULE_44__;
       } else if (mode === '1920') {
-        document.getElementById('logo_img').src = _oldtimey_logo_svg__WEBPACK_IMPORTED_MODULE_47__;
+        document.getElementById('logo_img').src = _oldtimey_logo_svg__WEBPACK_IMPORTED_MODULE_46__;
       } else if (mode === '220022BC') {
-        document.getElementById('logo_img').src = _prehistoric_logo_svg__WEBPACK_IMPORTED_MODULE_46__;
+        document.getElementById('logo_img').src = _prehistoric_logo_svg__WEBPACK_IMPORTED_MODULE_45__;
       } else {
         document.getElementById('logo_img').src = this.props.logo;
       }
@@ -6253,7 +6252,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
       this.props.onRequestCloseFile();
       downloadProjectCallback();
       if (this.props.onProjectTelemetryEvent) {
-        const metadata = (0,_lib_collect_metadata__WEBPACK_IMPORTED_MODULE_33__["default"])(this.props.vm, this.props.projectTitle, this.props.locale);
+        const metadata = (0,_lib_collect_metadata__WEBPACK_IMPORTED_MODULE_32__["default"])(this.props.vm, this.props.projectTitle, this.props.locale);
         this.props.onProjectTelemetryEvent('projectDidSave', metadata);
       }
     };
@@ -6300,19 +6299,19 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     // each item must have a 'title' FormattedMessage and a 'handleClick' function
     // generate a menu with items for each object in the array
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), {
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().active)]: this.props.aboutMenuOpen
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), {
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().active)]: this.props.aboutMenuOpen
       }),
       onMouseUp: this.props.onRequestOpenAbout
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().aboutIcon),
-      src: _icon_about_svg__WEBPACK_IMPORTED_MODULE_40__
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarMenu)),
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().aboutIcon),
+      src: _icon_about_svg__WEBPACK_IMPORTED_MODULE_39__
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarMenu)),
       open: this.props.aboutMenuOpen,
       place: this.props.isRtl ? 'right' : 'left',
       onRequestClose: this.props.onRequestCloseAbout
-    }, onClickAbout.map(itemProps => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, onClickAbout.map(itemProps => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       key: itemProps.title,
       isRtl: this.props.isRtl,
       onClick: this.wrapAboutMenuCallback(itemProps.onClick)
@@ -6346,31 +6345,31 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
       id: "gui.menuBar.load"
     });
     const remixButton = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarButton), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().remixButton)),
-      iconClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().remixButtonIcon),
-      iconSrc: _icon_remix_svg__WEBPACK_IMPORTED_MODULE_38__,
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarButton), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().remixButton)),
+      iconClassName: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().remixButtonIcon),
+      iconSrc: _icon_remix_svg__WEBPACK_IMPORTED_MODULE_37__,
       onClick: this.handleClickRemix
     }, remixMessage);
     // Show the About button only if we have a handler for it (like in the desktop app)
     const aboutButton = this.buildAboutMenu(this.props.onClickAbout);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(this.props.className, (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBar))
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(this.props.className, (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBar))
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().mainMenu)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().mainMenu)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().fileGroup)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().fileGroup)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem))
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem))
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
       id: "logo_img",
       alt: "Scratch",
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().scratchLogo), {
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().clickable)]: typeof this.props.onClickLogo !== 'undefined'
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().scratchLogo), {
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().clickable)]: typeof this.props.onClickLogo !== 'undefined'
       }),
       draggable: false,
       src: this.props.logo,
       onClick: this.props.onClickLogo
-    })), (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
+    })), (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
       canChangeLanguage: this.props.canChangeLanguage,
       canChangeTheme: this.props.canChangeTheme,
       isRtl: this.props.isRtl,
@@ -6378,38 +6377,38 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
       onRequestOpen: this.props.onClickSettings,
       settingsMenuOpen: this.props.settingsMenuOpen
     }), this.props.canManageFiles && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), {
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().active)]: this.props.fileMenuOpen
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), {
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().active)]: this.props.fileMenuOpen
       }),
       onMouseUp: this.props.onClickFile
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      src: _icon_file_svg__WEBPACK_IMPORTED_MODULE_41__
+      src: _icon_file_svg__WEBPACK_IMPORTED_MODULE_40__
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("span", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().collapsibleLabel)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().collapsibleLabel)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
       defaultMessage: "File",
       id: "gui.menuBar.file"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_39__
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarMenu)),
+      src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_38__
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarMenu)),
       open: this.props.fileMenuOpen,
       place: this.props.isRtl ? 'left' : 'right',
       onRequestClose: this.props.onRequestCloseFile
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       isRtl: this.props.isRtl,
       onClick: this.handleClickNew
-    }, newProjectMessage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, newProjectMessage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       onClick: this.props.onStartSelectingFileUpload
-    }, loadProjectMessage, this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_48__["default"].loadFromComputerTitle))), (this.props.canSave || this.props.canCreateCopy || this.props.canRemix) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, loadProjectMessage, this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_47__["default"].loadFromComputerTitle))), (this.props.canSave || this.props.canCreateCopy || this.props.canRemix) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuSection, null, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       onClick: this.handleClickSave
-    }, saveNowMessage), this.props.canCreateCopy && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, saveNowMessage), this.props.canCreateCopy && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       onClick: this.handleClickSaveAsCopy
-    }, createCopyMessage), this.props.canRemix && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, createCopyMessage), this.props.canRemix && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       onClick: this.handleClickRemix
-    }, remixMessage)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, remixMessage)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       onClick: this.props.onStartSelectingFileUpload
-    }, this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_48__["default"].loadFromComputerTitle)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_sb3_downloader_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, (className, downloadProjectCallback) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_47__["default"].loadFromComputerTitle)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_sb3_downloader_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], null, (className, downloadProjectCallback) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       className: className,
       onClick: this.getSaveToComputerHandler(downloadProjectCallback)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
@@ -6417,40 +6416,40 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
       // eslint-disable-line max-len
       id: "gui.menuBar.downloadToComputer"
     })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), {
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().active)]: this.props.editMenuOpen
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), {
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().active)]: this.props.editMenuOpen
       }),
       onMouseUp: this.props.onClickEdit
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      src: _icon_edit_svg__WEBPACK_IMPORTED_MODULE_42__
+      src: _icon_edit_svg__WEBPACK_IMPORTED_MODULE_41__
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("span", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().collapsibleLabel)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().collapsibleLabel)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
       defaultMessage: "Edit",
       id: "gui.menuBar.edit"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_39__
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarMenu)),
+      src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_38__
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarMenu)),
       open: this.props.editMenuOpen,
       place: this.props.isRtl ? 'left' : 'right',
       onRequestClose: this.props.onRequestCloseEdit
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_deletion_restorer_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, (handleRestore, _ref3) => {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_deletion_restorer_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, (handleRestore, _ref3) => {
       let {
         restorable,
         deletedItem
       } = _ref3;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()({
-          [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().disabled)]: !restorable
+          [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().disabled)]: !restorable
         }),
         onClick: this.handleRestoreOption(handleRestore)
       }, this.restoreOptionMessage(deletedItem));
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_turbo_mode_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], null, (toggleTurboMode, _ref4) => {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_turbo_mode_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, (toggleTurboMode, _ref4) => {
       let {
         turboMode
       } = _ref4;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
         onClick: toggleTurboMode
       }, turboMode ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
         defaultMessage: "Turn off Turbo Mode",
@@ -6460,57 +6459,57 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
         id: "gui.menuBar.turboModeOn"
       }));
     })))), this.props.isTotallyNormal && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), {
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().active)]: this.props.modeMenuOpen
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), {
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().active)]: this.props.modeMenuOpen
       }),
       onMouseUp: this.props.onClickMode
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().editMenu))
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().editMenu))
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
       defaultMessage: "Mode",
       id: "gui.menuBar.modeMenu"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarMenu)),
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_bar_menu_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarMenu)),
       open: this.props.modeMenuOpen,
       place: this.props.isRtl ? 'left' : 'right',
       onRequestClose: this.props.onRequestCloseMode
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       onClick: this.handleSetMode('NOW')
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("span", {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()({
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().inactive)]: !this.props.modeNow
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().inactive)]: !this.props.modeNow
       })
     }, '✓'), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
       defaultMessage: "Normal mode",
       id: "gui.menuBar.normalMode"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_17__.MenuItem, {
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_16__.MenuItem, {
       onClick: this.handleSetMode('2020')
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("span", {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()({
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().inactive)]: !this.props.mode2020
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().inactive)]: !this.props.mode2020
       })
     }, '✓'), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
       defaultMessage: "Caturday mode",
       id: "gui.menuBar.caturdayMode"
     })))))), this.props.canEditTitle ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().growable))
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().growable))
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(MenuBarItemTooltip, {
       enable: true,
       id: "title-field"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_project_title_input_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().titleFieldGrowable))
-    }))) : this.props.authorUsername && this.props.authorUsername !== this.props.username ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_author_info_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().authorInfo),
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_project_title_input_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().titleFieldGrowable))
+    }))) : this.props.authorUsername && this.props.authorUsername !== this.props.username ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_author_info_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().authorInfo),
       imageUrl: this.props.authorThumbnailUrl,
       projectTitle: this.props.projectTitle,
       userId: this.props.authorId,
       username: this.props.authorUsername
     }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem))
-    }, this.props.canShare ? (this.props.isShowingProject || this.props.isUpdating) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_project_watcher_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem))
+    }, this.props.canShare ? (this.props.isShowingProject || this.props.isUpdating) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_project_watcher_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
       onDoneUpdating: this.props.onSeeCommunity
     }, waitForUpdate => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_share_button_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarButton),
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarButton),
       isShared: this.props.isShared
       /* eslint-disable react/jsx-no-bind */,
       onClick: () => {
@@ -6520,13 +6519,13 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     })) : this.props.showComingSoon ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(MenuBarItemTooltip, {
       id: "share-button"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_share_button_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarButton)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarButton)
     })) : [], this.props.canRemix ? remixButton : []), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().communityButtonWrapper))
-    }, this.props.enableCommunity ? (this.props.isShowingProject || this.props.isUpdating) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_project_watcher_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().communityButtonWrapper))
+    }, this.props.enableCommunity ? (this.props.isShowingProject || this.props.isUpdating) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_project_watcher_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
       onDoneUpdating: this.props.onSeeCommunity
     }, waitForUpdate => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_community_button_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarButton)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarButton)
       /* eslint-disable react/jsx-no-bind */,
       onClick: () => {
         this.handleClickSeeCommunity(waitForUpdate);
@@ -6535,41 +6534,41 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     })) : this.props.showComingSoon ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(MenuBarItemTooltip, {
       id: "community-button"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_community_button_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarButton)
-    })) : []), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_divider_divider_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().divider))
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarButton)
+    })) : []), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_divider_divider_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().divider))
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().fileGroup)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().fileGroup)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
       "aria-label": this.props.intl.formatMessage(ariaMessages.tutorials),
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable)),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable)),
       onClick: this.props.onOpenTipLibrary
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().helpIcon),
-      src: _lib_assets_icon_tutorials_svg__WEBPACK_IMPORTED_MODULE_35__
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().helpIcon),
+      src: _lib_assets_icon_tutorials_svg__WEBPACK_IMPORTED_MODULE_34__
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("span", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().tutorialsLabel)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().tutorialsLabel)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, ariaMessages.tutorials))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().accountInfoGroup)
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().accountInfoGroup)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem)
-    }, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_save_status_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null)), this.props.sessionExists ? this.props.username ?
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem)
+    }, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_save_status_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], null)), this.props.sessionExists ? this.props.username ?
     /*#__PURE__*/
     // ************ user is logged in ************
     react__WEBPACK_IMPORTED_MODULE_6__.createElement(react__WEBPACK_IMPORTED_MODULE_6__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("a", {
       href: "/mystuff/"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().mystuffButton))
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().mystuffButton))
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().mystuffIcon),
-      src: _icon_mystuff_png__WEBPACK_IMPORTED_MODULE_36__
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_account_nav_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), {
-        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().active)]: this.props.accountMenuOpen
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().mystuffIcon),
+      src: _icon_mystuff_png__WEBPACK_IMPORTED_MODULE_35__
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_containers_account_nav_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), {
+        [(_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().active)]: this.props.accountMenuOpen
       }),
       isOpen: this.props.accountMenuOpen,
       isRtl: this.props.isRtl,
-      menuBarMenuClassName: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarMenu)),
+      menuBarMenuClassName: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarMenu)),
       onClick: this.props.onClickAccount,
       onClose: this.props.onRequestCloseAccount,
       onLogOut: this.props.onLogOut
@@ -6578,21 +6577,21 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     // ********* user not logged in, but a session exists
     // ********* so they can choose to log in
     react__WEBPACK_IMPORTED_MODULE_6__.createElement(react__WEBPACK_IMPORTED_MODULE_6__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable)),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable)),
       key: "join",
       onMouseUp: this.props.onOpenRegistration
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
       defaultMessage: "Join Scratch",
       id: "gui.menuBar.joinScratch"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable)),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable)),
       key: "login",
       onMouseUp: this.props.onClickLogin
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__.FormattedMessage, {
       defaultMessage: "Sign in",
       id: "gui.menuBar.signIn"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_login_dropdown_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarMenu)),
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(_login_dropdown_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarMenu)),
       isOpen: this.props.loginMenuOpen,
       isRtl: this.props.isRtl,
       renderLogin: this.props.renderLogin,
@@ -6603,166 +6602,166 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_6__.Component {
     react__WEBPACK_IMPORTED_MODULE_6__.createElement(react__WEBPACK_IMPORTED_MODULE_6__.Fragment, null, this.props.showComingSoon ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react__WEBPACK_IMPORTED_MODULE_6__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(MenuBarItemTooltip, {
       id: "mystuff"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().mystuffButton))
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().mystuffButton))
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().mystuffIcon),
-      src: _icon_mystuff_png__WEBPACK_IMPORTED_MODULE_36__
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().mystuffIcon),
+      src: _icon_mystuff_png__WEBPACK_IMPORTED_MODULE_35__
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(MenuBarItemTooltip, {
       id: "account-nav",
       place: this.props.isRtl ? 'right' : 'left'
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().hoverable), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().accountNavMenu))
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()((_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().menuBarItem), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().hoverable), (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().accountNavMenu))
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().profileIcon),
-      src: _icon_profile_png__WEBPACK_IMPORTED_MODULE_37__
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().profileIcon),
+      src: _icon_profile_png__WEBPACK_IMPORTED_MODULE_36__
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("span", null, 'scratch-cat'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
-      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_34___default().dropdownCaretIcon),
-      src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_39__
+      className: (_menu_bar_css__WEBPACK_IMPORTED_MODULE_33___default().dropdownCaretIcon),
+      src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_38__
     })))) : [])), aboutButton);
   }
 }
 MenuBar.propTypes = {
-  aboutMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  accountMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  authorId: prop_types__WEBPACK_IMPORTED_MODULE_49___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_49___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool)]),
-  authorThumbnailUrl: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  authorUsername: prop_types__WEBPACK_IMPORTED_MODULE_49___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_49___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool)]),
-  autoUpdateProject: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  canChangeLanguage: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canChangeTheme: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canCreateCopy: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canCreateNew: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canEditTitle: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canManageFiles: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canRemix: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canSave: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  canShare: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  className: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  confirmReadyToReplaceProject: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  currentLocale: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string).isRequired,
-  editMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  enableCommunity: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  fileMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
+  aboutMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  accountMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  authorId: prop_types__WEBPACK_IMPORTED_MODULE_48___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_48___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool)]),
+  authorThumbnailUrl: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  authorUsername: prop_types__WEBPACK_IMPORTED_MODULE_48___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_48___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool)]),
+  autoUpdateProject: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  canChangeLanguage: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canChangeTheme: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canCreateCopy: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canCreateNew: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canEditTitle: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canManageFiles: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canRemix: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canSave: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  canShare: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  className: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  confirmReadyToReplaceProject: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  currentLocale: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string).isRequired,
+  editMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  enableCommunity: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  fileMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
   intl: react_intl__WEBPACK_IMPORTED_MODULE_3__.intlShape,
-  isRtl: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  isShared: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  isShowingProject: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  isTotallyNormal: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  isUpdating: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  locale: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string).isRequired,
-  loginMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  logo: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  mode1920: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  mode1990: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  mode2020: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  mode220022BC: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  modeMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  modeNow: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  onClickAbout: prop_types__WEBPACK_IMPORTED_MODULE_49___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
+  isRtl: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  isShared: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  isShowingProject: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  isTotallyNormal: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  isUpdating: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  locale: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string).isRequired,
+  loginMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  logo: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  mode1920: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  mode1990: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  mode2020: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  mode220022BC: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  modeMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  modeNow: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  onClickAbout: prop_types__WEBPACK_IMPORTED_MODULE_48___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
   // button mode: call this callback when the About button is clicked
-  prop_types__WEBPACK_IMPORTED_MODULE_49___default().arrayOf(
+  prop_types__WEBPACK_IMPORTED_MODULE_48___default().arrayOf(
   // menu mode: list of items in the About menu
-  prop_types__WEBPACK_IMPORTED_MODULE_49___default().shape({
-    title: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
+  prop_types__WEBPACK_IMPORTED_MODULE_48___default().shape({
+    title: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
     // text for the menu item
-    onClick: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func) // call this callback when the menu item is clicked
+    onClick: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func) // call this callback when the menu item is clicked
   }))]),
-  onClickAccount: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickEdit: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickFile: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickLogin: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickLogo: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickMode: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickNew: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickRemix: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickSave: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickSaveAsCopy: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onClickSettings: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onLogOut: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onOpenRegistration: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onOpenTipLibrary: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onProjectTelemetryEvent: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestCloseAbout: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestCloseAccount: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestCloseEdit: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestCloseFile: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestCloseLogin: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestCloseMode: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestCloseSettings: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onRequestOpenAbout: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onSeeCommunity: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onSetTimeTravelMode: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onShare: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onStartSelectingFileUpload: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onStartSelectingDefaultFileUpload: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  onToggleLoginOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  projectTitle: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  renderLogin: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  sessionExists: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  settingsMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  shouldSaveBeforeTransition: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().func),
-  showComingSoon: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  username: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().string),
-  userOwnsProject: (prop_types__WEBPACK_IMPORTED_MODULE_49___default().bool),
-  vm: prop_types__WEBPACK_IMPORTED_MODULE_49___default().instanceOf((scratch_vm__WEBPACK_IMPORTED_MODULE_7___default())).isRequired
+  onClickAccount: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickEdit: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickFile: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickLogin: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickLogo: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickMode: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickNew: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickRemix: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickSave: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickSaveAsCopy: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onClickSettings: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onLogOut: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onOpenRegistration: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onOpenTipLibrary: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onProjectTelemetryEvent: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestCloseAbout: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestCloseAccount: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestCloseEdit: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestCloseFile: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestCloseLogin: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestCloseMode: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestCloseSettings: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onRequestOpenAbout: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onSeeCommunity: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onSetTimeTravelMode: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onShare: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onStartSelectingFileUpload: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onStartSelectingDefaultFileUpload: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  onToggleLoginOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  projectTitle: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  renderLogin: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  sessionExists: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  settingsMenuOpen: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  shouldSaveBeforeTransition: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().func),
+  showComingSoon: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  username: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().string),
+  userOwnsProject: (prop_types__WEBPACK_IMPORTED_MODULE_48___default().bool),
+  vm: prop_types__WEBPACK_IMPORTED_MODULE_48___default().instanceOf((scratch_vm__WEBPACK_IMPORTED_MODULE_7___default())).isRequired
 };
 MenuBar.defaultProps = {
-  logo: _Logo_JuniorCoder_svg__WEBPACK_IMPORTED_MODULE_43__,
+  logo: _Logo_JuniorCoder_svg__WEBPACK_IMPORTED_MODULE_42__,
   onShare: () => {}
 };
 const mapStateToProps = (state, ownProps) => {
   const loadingState = state.scratchGui.projectState.loadingState;
   const user = state.session && state.session.session && state.session.session.user;
   return {
-    aboutMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.aboutMenuOpen)(state),
-    accountMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.accountMenuOpen)(state),
+    aboutMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.aboutMenuOpen)(state),
+    accountMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.accountMenuOpen)(state),
     currentLocale: state.locales.locale,
-    fileMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.fileMenuOpen)(state),
-    editMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.editMenuOpen)(state),
+    fileMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.fileMenuOpen)(state),
+    editMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.editMenuOpen)(state),
     isRtl: state.locales.isRtl,
-    isUpdating: (0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_31__.getIsUpdating)(loadingState),
-    isShowingProject: (0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_31__.getIsShowingProject)(loadingState),
+    isUpdating: (0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_30__.getIsUpdating)(loadingState),
+    isShowingProject: (0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_30__.getIsShowingProject)(loadingState),
     locale: state.locales.locale,
-    loginMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.loginMenuOpen)(state),
-    modeMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.modeMenuOpen)(state),
+    loginMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.loginMenuOpen)(state),
+    modeMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.modeMenuOpen)(state),
     projectTitle: state.scratchGui.projectTitle,
     sessionExists: state.session && typeof state.session.session !== 'undefined',
-    settingsMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.settingsMenuOpen)(state),
+    settingsMenuOpen: (0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.settingsMenuOpen)(state),
     username: user ? user.username : null,
     userOwnsProject: ownProps.authorUsername && user && ownProps.authorUsername === user.username,
     vm: state.scratchGui.vm,
-    mode220022BC: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__.isTimeTravel220022BC)(state),
-    mode1920: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__.isTimeTravel1920)(state),
-    mode1990: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__.isTimeTravel1990)(state),
-    mode2020: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__.isTimeTravel2020)(state),
-    modeNow: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__.isTimeTravelNow)(state)
+    mode220022BC: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_29__.isTimeTravel220022BC)(state),
+    mode1920: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_29__.isTimeTravel1920)(state),
+    mode1990: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_29__.isTimeTravel1990)(state),
+    mode2020: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_29__.isTimeTravel2020)(state),
+    modeNow: (0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_29__.isTimeTravelNow)(state)
   };
 };
 const mapDispatchToProps = dispatch => ({
-  autoUpdateProject: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_31__.autoUpdateProject)()),
-  onOpenTipLibrary: () => dispatch((0,_reducers_modals__WEBPACK_IMPORTED_MODULE_28__.openTipsLibrary)()),
-  onClickAccount: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.openAccountMenu)()),
-  onRequestCloseAccount: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.closeAccountMenu)()),
-  onClickFile: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.openFileMenu)()),
-  onRequestCloseFile: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.closeFileMenu)()),
-  onClickEdit: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.openEditMenu)()),
-  onRequestCloseEdit: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.closeEditMenu)()),
-  onClickLogin: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.openLoginMenu)()),
-  onRequestCloseLogin: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.closeLoginMenu)()),
-  onClickMode: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.openModeMenu)()),
-  onRequestCloseMode: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.closeModeMenu)()),
-  onRequestOpenAbout: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.openAboutMenu)()),
-  onRequestCloseAbout: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.closeAboutMenu)()),
-  onClickSettings: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.openSettingsMenu)()),
-  onRequestCloseSettings: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_32__.closeSettingsMenu)()),
-  onClickNew: needSave => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_31__.requestNewProject)(needSave)),
-  onClickRemix: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_31__.remixProject)()),
-  onClickSave: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_31__.manualUpdateProject)()),
-  onClickSaveAsCopy: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_31__.saveProjectAsCopy)()),
-  onSeeCommunity: () => dispatch((0,_reducers_mode__WEBPACK_IMPORTED_MODULE_29__.setPlayer)(true)),
-  onSetTimeTravelMode: mode => dispatch((0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_30__.setTimeTravel)(mode))
+  autoUpdateProject: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_30__.autoUpdateProject)()),
+  onOpenTipLibrary: () => dispatch((0,_reducers_modals__WEBPACK_IMPORTED_MODULE_27__.openTipsLibrary)()),
+  onClickAccount: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.openAccountMenu)()),
+  onRequestCloseAccount: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.closeAccountMenu)()),
+  onClickFile: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.openFileMenu)()),
+  onRequestCloseFile: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.closeFileMenu)()),
+  onClickEdit: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.openEditMenu)()),
+  onRequestCloseEdit: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.closeEditMenu)()),
+  onClickLogin: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.openLoginMenu)()),
+  onRequestCloseLogin: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.closeLoginMenu)()),
+  onClickMode: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.openModeMenu)()),
+  onRequestCloseMode: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.closeModeMenu)()),
+  onRequestOpenAbout: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.openAboutMenu)()),
+  onRequestCloseAbout: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.closeAboutMenu)()),
+  onClickSettings: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.openSettingsMenu)()),
+  onRequestCloseSettings: () => dispatch((0,_reducers_menus__WEBPACK_IMPORTED_MODULE_31__.closeSettingsMenu)()),
+  onClickNew: needSave => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_30__.requestNewProject)(needSave)),
+  onClickRemix: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_30__.remixProject)()),
+  onClickSave: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_30__.manualUpdateProject)()),
+  onClickSaveAsCopy: () => dispatch((0,_reducers_project_state__WEBPACK_IMPORTED_MODULE_30__.saveProjectAsCopy)()),
+  onSeeCommunity: () => dispatch((0,_reducers_mode__WEBPACK_IMPORTED_MODULE_28__.setPlayer)(true)),
+  onSetTimeTravelMode: mode => dispatch((0,_reducers_time_travel__WEBPACK_IMPORTED_MODULE_29__.setTimeTravel)(mode))
 });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,redux__WEBPACK_IMPORTED_MODULE_2__.compose)(react_intl__WEBPACK_IMPORTED_MODULE_3__.injectIntl, _containers_menu_bar_hoc_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps))(MenuBar));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,redux__WEBPACK_IMPORTED_MODULE_2__.compose)(react_intl__WEBPACK_IMPORTED_MODULE_3__.injectIntl, _containers_menu_bar_hoc_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps))(MenuBar));
 
 /***/ }),
 
@@ -42563,4 +42562,4 @@ module.exports = /*#__PURE__*/JSON.parse('[{"name":"Abby","tags":["people","pers
 /***/ })
 
 }]);
-//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.471bac3b25b672ff9558.js.map
+//# sourceMappingURL=src_containers_gui_jsx-src_lib_app-state-hoc_jsx-src_lib_hash-parser-hoc_jsx.58cacc2b21ca56b96709.js.map
