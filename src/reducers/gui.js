@@ -32,6 +32,8 @@ import throttle from 'redux-throttle';
 
 import decks from '../lib/libraries/decks/index.jsx';
 
+import userStateReducer, {userStateInitialState} from './user-state';
+
 const guiMiddleware = compose(applyMiddleware(throttle(300, {leading: true, trailing: true})));
 
 const guiInitialState = {
